@@ -38,4 +38,5 @@ class Student
     attributes.each { |k, v| student.send("#{k}=", v)}
     student.save
     student
+  end
 end
